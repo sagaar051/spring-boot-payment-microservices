@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+  auth-service:
+    build: ./payments-auth-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+
+  transaction-service:
+    build: ./payments-transaction-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - postgres
+
+  gateway:
+    build: ./payments-api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - auth-service
+      - transaction-service

@@ -67,11 +67,11 @@ SpringMicroPay
 
 ## 🧑‍💻 Author
 
-**Chandra Sekhar Pramod Mahaveer Neelam**  
+**Sagar Gouda**  
 Java Full Stack Developer  
-📧 Email: chandrasekharneelam8@gmail.com  
-📞 Phone: +1 940-843-3314  
-🔗 [LinkedIn](http://www.linkedin.com/in/chandraneelam5)
+📧 Email: sagargy555@gmail.com 
+📞 Phone: +91 7873164324
+🔗 [LinkedIn](https://www.linkedin.com/in/sagar051/)
 
 ---
 
